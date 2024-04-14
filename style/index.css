@@ -92,10 +92,16 @@
 }
 
 .info-cards{
-    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+    overflow-x: auto;
     display: flex;
     justify-content: space-evenly;
     margin: 15px;
+}
+
+.info-cards > div{
+    flex: 0 0 300px;
+    margin: 30px;
 }
 
 .card01, .card02, .card03{
