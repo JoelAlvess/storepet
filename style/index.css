@@ -63,6 +63,7 @@
     }
 
     .icon-menu {
+        margin: 8px;
         clear: right;
         display: block; 
         order: 1; 
