@@ -91,5 +91,22 @@
     background-color: rgba(250, 235, 215, 0.592);
 }
 
+.info-cards{
+    overflow-x: hidden;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 15px;
+}
+
+.card01, .card02, .card03{
+    border-radius: 10px;
+    background-color: rgba(0, 166, 255, 0.179);
+    padding: 10px;
+    margin: 10px;
+}
+
+.card01, .card02, .card03{
+    text-align: center;
+}
 
 
