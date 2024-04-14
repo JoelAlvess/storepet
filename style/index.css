@@ -59,11 +59,11 @@
 
     .name-store {
         order: 2; 
-       text-align: left;
+        text-align: left;
     }
 
     .icon-menu {
-        margin: 8px;
+        margin-right: 15px;
         clear: right;
         display: block; 
         order: 1; 
