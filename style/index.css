@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Platypi:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+/* .platypi-<uniquifier{
+  font-family: "Platypi", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
+*{
+
+    padding: 0;
+    margin: 0;
+}
+
+.body{
+    font-family: "Platypi", serif;
+}
+
+.header-name{
+    background-color: rgba(0, 166, 255, 0.485);
+}
+
+.icon-menu{
+    display: none;
+}
+
+.name-store{
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.352);
+}
+
+.menu{
+    background-color: rgba(0, 166, 255, 0.485);
+    box-sizing: border-box;
+    padding: 12px;
+}
+
+.list-menu{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+@media screen and (max-width: 500px) {
+
+    .header-name {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row-reverse;
+        padding: 10px;
+    }
+
+    .name-store {
+        order: 2; 
+       text-align: left;
+    }
+
+    .icon-menu {
+        clear: right;
+        display: block; 
+        order: 1; 
+    }
+    .menu{
+        display: none;
+    }
+
+    .list-menu{
+        display: none;
+    }
+}
+.item{
+    padding: 8px;
+}
+
+.item a{
+    padding: 9px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    border-radius: 10px;
+}
+
+.item  a:hover{
+    background-color: rgba(250, 235, 215, 0.592);
+}
+
+
+
