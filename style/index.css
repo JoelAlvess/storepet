@@ -105,13 +105,21 @@
 }
 
 .card01, .card02, .card03{
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.875);
     border-radius: 10px;
     background-color: rgba(0, 166, 255, 0.179);
-    padding: 10px;
+    padding: 15px;
     margin: 10px;
 }
 
 .card01, .card02, .card03{
+    padding: 8px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.text-card01, .text-card02, .text-card03{
+    padding: 8px;
     text-align: center;
 }
 
